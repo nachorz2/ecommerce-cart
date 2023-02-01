@@ -52,7 +52,7 @@ function NavbarComponent() {
                             <h1>Total: {cart.getTotalCost().toFixed(2)}</h1>
 
                             <Button variant="success" 
-                            href='http://localhost:3000/checkout'
+                            href='/checkout'
                             // onClick={checkout}
                             >
                                 Purchase items!
