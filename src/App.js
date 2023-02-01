@@ -19,7 +19,7 @@ function App() {
         <NavbarComponent></NavbarComponent>
         <BrowserRouter>
           <Routes>
-            <Route index element={<Store />} />
+            <Route path="/" element={<Store />} />
             <Route path="success" element={<Success />} />
             <Route path="cancel" element={<Cancel />} />
             <Route path="checkout" element={<Checkout />}/>
